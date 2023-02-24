@@ -1,6 +1,33 @@
 {
+<<<<<<< HEAD
   "name": "monorepo",
   "private": true,
+=======
+  "name": "@melonproject/protocol",
+  "version": "1.1.3",
+  "description": "Technology Regulated and Operated Investment Funds",
+  "author": "Melonport AG <team@melonport.com>",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/melonproject/protocol#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melonproject/protocol.git"
+  },
+  "bugs": {
+    "url": "https://github.com/melonproject/protocol/issues"
+  },
+  "keywords": [
+    "Defi",
+    "Ethereum",
+    "Melon",
+    "Smart Contracts",
+    "Solidity"
+  ],
+  "files": [
+    "out/",
+    "deployments/"
+  ],
+>>>>>>> origin/v1
   "scripts": {
     "build": "pnpm run --recursive -- build",
     "test": "cross-env TS_NODE_TRANSPILE_ONLY=1 pnpm run compile && cross-env TS_NODE_TRANSPILE_ONLY=1 pnpm run --filter @enzymefinance/protocol -- test",
